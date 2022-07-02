@@ -22,9 +22,7 @@ nav {
 
 nav img {
     width: 150px;
-    background-color: #fff;
     padding: 5px 10px;
-    border-radius: 10px;
 }
 
 .nav-links {
@@ -104,9 +102,7 @@ nav .fa {
 @media(max-width: 700px){
     nav img {
         width: 75px;
-        background-color: #fff;
         padding: 5px 10px;
-        border-radius: 10px;
     }
 
     .text-box h1 {
@@ -140,4 +136,352 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
+}
+
+/*---------- Courses ----------*/
+
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/*---------- Location ----------*/
+.location {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.location .row {
+    justify-content: space-evenly;
+}
+
+.location-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.location-col img {
+    width: 100%;
+    display: block;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: #0082e6;
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 42%;
+    opacity: 1;
+}
+
+/*---------- Branding ----------*/
+.branding {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.branding-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.branding-col img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.branding-col p {
+    padding: 0;
+}
+
+.branding-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.branding-col img:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*---------- Intergrated ----------*/
+.integrated {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.integrated .row {
+    justify-content: space-evenly;
+}
+
+.integrated-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.integrated-col img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.integrated-col p {
+    padding: 0;
+}
+
+.integrated-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.integrated-col img:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*---------- Packaging ----------*/
+.packaging {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.packaging-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.packaging-col img {
+    width: 80%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.packaging-col p {
+    padding: 0;
+}
+
+.packaging-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.packaging-col img:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*---------- In-Printing ----------*/
+.inprinting {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.inprinting-col {
+    flex-basis: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.inprinting-col img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.inprinting-col p {
+    padding: 0;
+}
+
+.inprinting-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.inprinting-col img:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*---------- Testimonials ----------*/
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonial-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.testimonial-col p {
+    padding: 0;
+}
+
+.testimonial-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.testimonial-col .fa {
+    color: #f44336;
+}
+
+@media(max-width: 700px) {
+    .testimonial-col img {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
+
+/*---------- Call To Action ----------*/
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(eduford_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px) {
+    .cta h1 {
+        font-size: 24px;
+    }
+}
+
+/*---------- Footer ----------*/
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o {
+    color: #f44336;
 }
