@@ -257,16 +257,19 @@ h3 {
 }
 
 .branding-col {
+    background-color: rgb(200, 210, 230);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    text-align: center;
+    padding: 20px 5px;
 }
 
 .branding-col img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     transition: 0.5s;
+    margin: 2% 0%;
 }
 
 .branding-col p {
@@ -296,16 +299,19 @@ h3 {
 }
 
 .integrated-col {
+    background-color: rgb(200, 210, 230);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    text-align: center;
+    padding: 20px 5px;
 }
 
 .integrated-col img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     transition: 0.5s;
+    margin: 2% 0%;
 }
 
 .integrated-col p {
@@ -330,17 +336,25 @@ h3 {
     padding-top: 100px;
 }
 
+.packaging .row {
+    justify-content: space-evenly;
+}
+
 .packaging-col {
+    background-color: rgb(200, 210, 230);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    text-align: center;
+    padding: 20px 5px;
 }
 
 .packaging-col img {
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     transition: 0.5s;
+    margin-top: 30px;
+    margin: 2% 0%;
 }
 
 .packaging-col p {
@@ -350,7 +364,7 @@ h3 {
 .packaging-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 .packaging-col img:hover {
@@ -511,6 +525,18 @@ h3 {
 .about-col {
     flex-basis: 48%;
     padding: 30px 2px;
+}
+
+.about-col img {
+    width: 100%;
+}
+
+.about-col h1 {
+    padding-top: 0;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
 }
 
 @media(max-width: 700px){
